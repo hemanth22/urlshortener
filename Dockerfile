@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.12.0b1-slim
 COPY * /
 RUN pip3 install -r /requirements.txt
 COPY . /app
